@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+body{
+background-color: rgb(203, 201, 201);}
+
+#listContainer {
+    /* border: 2px solid rgb(238, 238, 238); */
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    background-color: white;
+}
+
+.individual-container{
+    align-items: center;
+    margin: 10px;
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-style{
+    /* text-align: center; */
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.name-style{
+    text-align: center;
+}
+
+.button-style {
+    margin: auto;
+    background-color: rgb(181, 225, 138);
+    border-radius: 7%;
+    width: 160px;
+    height: 45px;
+    display: block;
+}
+
+.button-style:hover {
+    background-color: rgb(181, 200, 138);
+    cursor: pointer;
+}
